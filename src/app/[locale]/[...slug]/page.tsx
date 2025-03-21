@@ -2169,10 +2169,6 @@ const data: { [key: string]: { component_handel: string; content?: any }[] } = {
         },
       },
     },
-    {
-      component_handel: "common/contact/Contact",
-      content: {},
-    },
   ],
   cymark: [
     {
@@ -2266,10 +2262,6 @@ The solution is designed to be tamper-proof, watermark cannot be removed or disa
           ],
         },
       },
-    },
-    {
-      component_handel: "common/contact/Contact",
-      content: {},
     },
   ],
   cycomm: [
@@ -2378,10 +2370,6 @@ The solution is designed to be tamper-proof, watermark cannot be removed or disa
           ],
         },
       },
-    },
-    {
-      component_handel: "common/contact/Contact",
-      content: {},
     },
   ],
 

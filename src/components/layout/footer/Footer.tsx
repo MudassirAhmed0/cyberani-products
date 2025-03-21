@@ -12,12 +12,12 @@ const Footer = ({ arabic }: FooterProps) => {
     <footer className="lg:py-sp72 lg:pb-sp16 pb-5 pt-[110px] relative text-white bg-white z-[2]">
       <span className="atlwh_Full formxfooter_overlay2 pointer-events-none flipped"></span>
       <div className="relative z-[2] myContainer">
-        <div className="lg:pb-sp48 pb-8 border-b border-[#FFFFFF1A] mb-8 lg:mb-0">
+        {/* <div className="lg:pb-sp48 pb-8 border-b border-[#FFFFFF1A] mb-8 lg:mb-0">
           <NavigationLinks arabic={arabic} />
-        </div>
+        </div> */}
         <div className="lg:py-sp20 py-5 gap-10 flex flex-wrap items-center justify-center lg:justify-between">
           <span className="lg:text12 text-[12px]">
-            All rights reserved @ 2024
+            All rights reserved @ 2025
           </span>
           <Link
             href="/"
