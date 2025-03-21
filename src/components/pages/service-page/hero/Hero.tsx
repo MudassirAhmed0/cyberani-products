@@ -11,7 +11,7 @@ interface Props {
 
 const Hero = ({ content }: Props) => {
   return (
-    <section className="relative minfullVh minfullSvh flex items-start lg:pt-[33.625vh] pt-[250px]">
+    <section className="relative min-h-[840px] lg:minfullVh lg:minfullSvh flex items-start lg:pt-[33.625vh] pt-[250px] z-[2]">
       <BackGrounds />
       <div className="relative z-[2] myContainer text-white">
         <div className="lg:w-[82.9166666667vw] flex flex-col lg:gap-y-[4vh] gap-y-4 lg:items-start items-center lg:text-start text-center">

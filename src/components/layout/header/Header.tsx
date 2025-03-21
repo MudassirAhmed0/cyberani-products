@@ -409,5 +409,27 @@ export const Header: React.FC<HeaderProps> = ({ arabic, blackHeader }) => {
   //   }
   // };
 
-  return <div></div>;
+  return (
+    <header
+      className={`absolute   z-10 top-0 lrf1 w-full  text-white
+  `}
+    >
+      <div className="flex justify-between lg:px-sp100 px-5 headerWrapper">
+        <Link href="/" className="relative z-[1] headerLogo">
+          <Image
+            fill
+            alt="logo"
+            src={"/images/icons/header_logo.svg"}
+            className={`${blackHeader ? "opacity-0" : "opacity-[1]"}`}
+          />
+          <Image
+            fill
+            alt="logo"
+            src={"/images/icons/header_logo_black.svg"}
+            className={`${blackHeader ? "opacity-[1]" : "opacity-0"}`}
+          />
+        </Link>
+      </div>
+    </header>
+  );
 };

@@ -40,7 +40,7 @@ interface Props {
 
 const ServiceOverview = ({ content }: Props) => {
   return (
-    <section className="lg:mt-[-46.125vh] mt-[-435px] relative">
+    <section className="lg:mt-[-46.125vh] mt-[-435px] relative bg-[#01284f]">
       <span className="atlwh_Full top-[unset] bottom-0 bg-dark-navy h-[93%] pointer-events-none"></span>
       <div className="lg:w-[87.5vw] w-full mx-auto lg:pb-sp100 lg:border lg:border20 lg:border-[#0000001a] relative z-[2]">
         <Intro
