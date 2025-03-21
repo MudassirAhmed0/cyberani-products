@@ -1,0 +1,37 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; img-src 'self' https: data:; script-src 'self' https://www.youtube.com https://www.google.com https://vercel.live; script-src-elem 'self' 'unsafe-inline' https://www.gstatic.com https://www.gstatic.com/recaptcha/ https://tools.euroland.com https://www.youtube.com https://www.google.com https://vercel.live https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://vercel.live/fonts; font-src 'self' https://fonts.gstatic.com data:; media-src 'self' https://axvpvthrjz64.compat.objectstorage.me-jeddah-1.oraclecloud.com; connect-src 'self' https: https://axvpvthrjz64.compat.objectstorage.me-jeddah-1.oraclecloud.com https://assets.lottiefiles.com wss://ws-us3.pusher.com; frame-src 'self' https://www.youtube.com https://www.google.com https://tools.euroland.com https://ksatools.eurolandir.com https://vercel.live https://staging.d47gihpetm7dx.amplifyapp.com/ https://staging.d2eiffbx30ojor.amplifyapp.com/; frame-ancestors 'none';"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "Server",
+          "value": "(_:_)"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(self), microphone=(), camera=(), fullscreen=()"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer-when-downgrade"
+        }
+      ]
+    }
+  ]
+}
