@@ -2544,11 +2544,13 @@ export default async function Page({
   return (
     // FIXME: slugs array need to be handeld
     pages.includes(finalSlug.toLocaleLowerCase()) ? (
-      <ComponentMapper
-        content={data[finalSlug][0].content}
-        components={data[finalSlug]}
-        arabic={isAr}
-      />
+      <Layout blackHeader={isBlack} arabic={isAr}>
+        <ComponentMapper
+          content={data[finalSlug][0].content}
+          components={data[finalSlug]}
+          arabic={isAr}
+        />
+      </Layout>
     ) : (
       <div>notFound</div>
     )
