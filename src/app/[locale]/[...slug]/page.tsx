@@ -2201,7 +2201,7 @@ CyMark embeds a unique watermark that is cryptographically linked to the user al
 The solution is designed to be tamper-proof, watermark cannot be removed or disabled.`,
         },
         features: {
-          heading: ` CyMark Service 
+          heading: ` CyMarkService 
             <span class="text-bright-teal">Features</span>`,
           items: [
             {
@@ -2544,13 +2544,11 @@ export default async function Page({
   return (
     // FIXME: slugs array need to be handeld
     pages.includes(finalSlug.toLocaleLowerCase()) ? (
-      <Layout blackHeader={isBlack} arabic={isAr}>
-        <ComponentMapper
-          content={data[finalSlug][0].content}
-          components={data[finalSlug]}
-          arabic={isAr}
-        />
-      </Layout>
+      <ComponentMapper
+        content={data[finalSlug][0].content}
+        components={data[finalSlug]}
+        arabic={isAr}
+      />
     ) : (
       <div>notFound</div>
     )
