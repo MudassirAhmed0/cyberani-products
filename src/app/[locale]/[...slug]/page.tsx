@@ -2145,10 +2145,7 @@ const data: { [key: string]: { component_handel: string; content?: any }[] } = {
         },
         useCasesData: {
           heading: ` Use <span class="text-bright-teal">Cases</span>`,
-          versusData: {
-            title: "Product VS Other Technology",
-            desc: "All other technologies in the market rely on tunnel routing protocols even the ones claiming to be “tunnel-less” except for our solution. ",
-          },
+
           items: [
             {
               title: "IoT (Internet of Things) Connectivity",
@@ -2246,10 +2243,7 @@ The solution is designed to be tamper-proof, watermark cannot be removed or disa
         },
         useCasesData: {
           heading: ` Use <span class="text-bright-teal">Cases</span>`,
-          versusData: {
-            title: "Product VS Other Technology",
-            desc: "All other technologies in the market rely on tunnel routing protocols even the ones claiming to be “tunnel-less” except for our solution. ",
-          },
+
           items: [
             {
               title: "01",
