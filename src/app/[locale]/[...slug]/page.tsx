@@ -2279,7 +2279,7 @@ The solution is designed to be tamper-proof, watermark cannot be removed or disa
               alt="hero-title"
               class="ltr:mr-[1.66666666667vw] rtl:ml-[1.66666666667vw] lg:h-[3.125vw] h-[38px] object-contain"
             />    Saudi Secure Communication Platform`,
-        src: "/images/service-page/banners/product3.png",
+        src: "/images/service-page/banners/product3.jpg",
         logo: true,
         breadCrumbs: [
           {
@@ -2354,11 +2354,11 @@ The solution is designed to be tamper-proof, watermark cannot be removed or disa
           uniqueFuction: true,
           functionHeading: ` Product <span class='text-bright-teal'>Features</span> `,
         },
-        features: {
-          heading: ` Product <span class="text-bright-teal">VS</span>  Other Technology 
-            `,
-          desc: `Fully Localized in the Kingdom: Unlike other technologies, CyComm guarantees that all data and communications stay within Saudi Arabia, providing unmatched security and compliance with local regulations.`,
-        },
+        // features: {
+        //   heading: ` Product <span class="text-bright-teal">VS</span>  Other Technology
+        //     `,
+        //   desc: `Fully Localized in the Kingdom: Unlike other technologies, CyComm guarantees that all data and communications stay within Saudi Arabia, providing unmatched security and compliance with local regulations.`,
+        // },
         useCasesData: {
           heading: ` Use <span class="text-bright-teal">Cases</span>`,
 
