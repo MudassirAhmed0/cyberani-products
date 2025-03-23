@@ -2055,7 +2055,13 @@ const data: { [key: string]: { component_handel: string; content?: any }[] } = {
     {
       component_handel: "pages/service-page/hero/Hero",
       content: {
-        title: ` CyLnx – Next-gen Secure Connectivity`,
+        title: `  <img
+              src="/images/service-page/banners/logos/1.svg"
+              alt="hero-title"
+              class="ltr:mr-[1.66666666667vw] rtl:ml-[1.66666666667vw] lg:h-[3.125vw] h-[38px] object-contain"
+            />   Next-gen Secure Connectivity`,
+        src: "/images/service-page/banners/product1.png",
+        logo: true,
         breadCrumbs: [
           {
             text: "CyProducts",
@@ -2174,7 +2180,13 @@ const data: { [key: string]: { component_handel: string; content?: any }[] } = {
     {
       component_handel: "pages/service-page/hero/Hero",
       content: {
-        title: ` CyMark – more than just a watermark`,
+        title: ` <img
+              src="/images/service-page/banners/logos/2.svg"
+              alt="hero-title"
+              class="ltr:mr-[1.66666666667vw] rtl:ml-[1.66666666667vw] lg:h-[3.125vw] h-[38px] object-contain"
+            />   More than just a watermark`,
+        src: "/images/service-page/banners/product2.png",
+        logo: true,
         breadCrumbs: [
           {
             text: "CyProducts",
@@ -2268,7 +2280,13 @@ The solution is designed to be tamper-proof, watermark cannot be removed or disa
     {
       component_handel: "pages/service-page/hero/Hero",
       content: {
-        title: ` CyComm – Saudi Secure Communication Platform`,
+        title: ` <img
+              src="/images/service-page/banners/logos/3.svg"
+              alt="hero-title"
+              class="ltr:mr-[1.66666666667vw] rtl:ml-[1.66666666667vw] lg:h-[3.125vw] h-[38px] object-contain"
+            />    Saudi Secure Communication Platform`,
+        src: "/images/service-page/banners/product3.png",
+        logo: true,
         breadCrumbs: [
           {
             text: "CyProducts",
